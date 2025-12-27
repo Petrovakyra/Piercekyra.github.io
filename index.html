@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Kyra Design — Artes que vendem</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+:root{
+  --pink:#ff2f92;
+  --purple:#7b2cff;
+  --dark:#0a0a0a;
+}
+
+*{box-sizing:border-box}
+
+body{
+  margin:0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: radial-gradient(circle at top, #140018, #000);
+  color:white;
+}
+
+header{
+  min-height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  padding:40px 20px;
+}
+
+header h1{
+  font-size:3.2em;
+  background: linear-gradient(90deg,var(--pink),var(--purple));
+  -webkit-background-clip:text;
+  color:transparent;
+}
+
+header p{
+  max-width:600px;
+  font-size:1.2em;
+  opacity:.9;
+}
+
+.cta{
+  margin-top:30px;
+  padding:18px 36px;
+  font-size:1.1em;
+  background:linear-gradient(135deg,var(--pink),var(--purple));
+  color:white;
+  text-decoration:none;
+  border-radius:40px;
+  font-weight:bold;
+  transition:.3s;
+}
+
+.cta:hover{
+  transform:scale(1.08);
+  box-shadow:0 0 30px var(--pink);
+}
+
+section{
+  max-width:1200px;
